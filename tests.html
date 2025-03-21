@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Tests</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 0 10px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .test-list {
+            list-style: none;
+            padding: 0;
+        }
+        .test-item {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .test-item.success {
+            background-color: #e6ffe6;
+            border-color: #00cc00;
+        }
+        .test-item.error {
+            background-color: #ffe6e6;
+            border-color: #ff3333;
+        }
+    </style>
+    <script src="./tests.js" defer></script>
+</head>
+<body>
+    <h1>Результаты тестов</h1>
+    <ul class="test-list" id="testList"></ul>
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="./index.html">Вернуться к калькулятору</a>
+    </div>
+</body>
+</html>
